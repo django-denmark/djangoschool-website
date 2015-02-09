@@ -8,6 +8,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+.env
 build/
 develop-eggs/
 dist/
@@ -52,3 +53,15 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IDE stuff
+.idea/
+.ropeproject/
+
+# DBs
+db.sqlite
+db.sqlite3
+
+# Custom stuff
+*.sw*
+site/locals.py
