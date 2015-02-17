@@ -34,7 +34,7 @@ class ContactForm(forms.Form):
         send_mail(
             'Message from {0}'.format(email),
             email_message,
-            'school@djangocph.com',
+            'school@djangocph.dk',
             ['school@djangocph.dk'],
             fail_silently=False
         )
